@@ -18,7 +18,7 @@
     </head>
     <body>
         <form action="<?php echo $helper->url("usuarios","crear"); ?>" method="post" class="col-lg-5">
-            <h3>Añadir usuario</h3>
+            <h3>Añadir usuario nuevo</h3>
             <hr/>
             Nombre: <input type="text" name="nombre" class="form-control"/>
             Apellido: <input type="text" name="apellido" class="form-control"/>
@@ -26,7 +26,7 @@
             Contraseña: <input type="password" name="password" class="form-control"/>
             <input type="submit" value="enviar" class="btn btn-success"/>
         </form>
-         
+
         <div class="col-lg-7">
             <h3>Usuarios</h3>
             <hr/>
@@ -43,6 +43,6 @@
                 <hr/>
             <?php } ?>
         </section>
-        
+
     </body>
 </html>
